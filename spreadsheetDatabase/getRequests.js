@@ -1,5 +1,5 @@
 import { google } from 'googleapis'
-
+import "dotenv/config.js";
 const googleAPIKey = process.env.GOOGLE_API_KEY
 const googleRequestsSpreadsheetId = process.env.GOOGLE_REQUESTS_SPREADSHEET_ID
 

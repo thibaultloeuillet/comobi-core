@@ -1,6 +1,6 @@
 import { google } from 'googleapis'
 import { parse, isBefore, addDays } from 'date-fns'
-
+import "dotenv/config.js";
 const googleAPIKey = process.env.GOOGLE_API_KEY
 const googleDriverSpreadsheetId = process.env.GOOGLE_DRIVER_SPREADSHEET_ID
 

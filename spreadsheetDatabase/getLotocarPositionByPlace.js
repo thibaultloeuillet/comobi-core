@@ -1,5 +1,5 @@
 import { google } from 'googleapis'
-
+import "dotenv/config.js";
 const googleAPIKey = process.env.GOOGLE_API_KEY
 const sheets = google.sheets({ version: 'v4', auth: googleAPIKey })
 
